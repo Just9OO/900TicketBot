@@ -1,0 +1,42 @@
+{
+  "name": "discord-ticket-bot",
+  "version": "3.0.0",
+  "description": "Self-hosted Discord ticket bot with a /setup dashboard, multi-topic panels, forms, staff applications, live status, ratings, transcripts and a ticket log",
+  "main": "src/index.js",
+  "private": true,
+  "license": "MIT",
+  "author": "Just9OO",
+  "homepage": "https://github.com/Just9OO/900TicketBot#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Just9OO/900TicketBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Just9OO/900TicketBot/issues"
+  },
+  "keywords": [
+    "discord",
+    "discord-bot",
+    "discord.js",
+    "ticket",
+    "ticket-bot",
+    "support",
+    "transcripts",
+    "sqlite"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.0",
+    "dotenv": "^18.0.9"
+  },
+  "optionalDependencies": {
+    "better-sqlite3": "^13.0.3"
+  }
+}
